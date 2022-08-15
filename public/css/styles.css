@@ -1,4 +1,4 @@
-body {
+header {
     background-color: #EAC926;
 }
 
@@ -25,4 +25,10 @@ h5.descripciones {
 
 footer {
     text-align: center;
+    line-height: 10px;
+}
+
+footer i {
+    font-size: 2em;
+    color: #1259c3;
 }
