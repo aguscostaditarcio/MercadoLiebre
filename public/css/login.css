@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.amarillo {
+    background-color: #EAC926;
+}
+
 header {
     background-color: #EAC926;
     padding: 20px;
@@ -26,13 +30,13 @@ header {
     align-self: center;
     justify-content: center;
     width: 35%;
+    
 }
 
 .barra2{
     width: 75%;
     padding: 1%;
     border-radius: 5px;
-    border: none;
 }
 
 .lupa {
@@ -44,7 +48,7 @@ header {
     position: relative;
     top: 1%;
     right: 14%;
-    margin: 5px;
+    margin: 8px;
 }
 
 .nav-bar{
@@ -81,101 +85,55 @@ div.burger-menu {
     text-align: center;
 }
 
-
-
-.banner {
-    width: 100%;
-    margin: 0px;
-}
-
 body {
     font-family: 'roboto';
     font-size: 12px;
     background-color: #ebebeb;
 }
 
-p.titulares {
-    font-size: 24px;
-    margin: 17px;
-}
-
-p.precio {
-    font-size: 18px;
-    width: 30%;
-}
-
-p.descuentos {
-    font-size: 16px;
-    width: 70%;
-    color: #39b54a;
-}
-
-h5.descripciones {
-    font-size: 16px;
-    display: none;
-    opacity: 0%;
-    transition: 300ms;
-    margin-top: 10px;
-}
-
-.articulo:hover h5.descripciones {
-    opacity: 100%;
-}
-
-main {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.imagenes {
-    width: 90%;
-}
-
-.productos {
+.registro{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; 
 }
 
-.articulo {
-    margin: 10px 0px;
-    background-color: white;
-    width: 90%;
+.fondo{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
 }
 
-article div.main-article {
-    border-top: 1px solid #ebebeb;
-    margin: 15px;
+article {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   align-items: flex-start;
+   margin: 10px;
 }
 
-.precio-y-descuento {
-    display: flex;
-    align-items: center;
-}
-
-main article i{
-    display: block;
-    font-size: 16px;
+input{
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
     padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    color: #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: relative;
-    right: -80%;
-    top: -15px;
-    transition: 500ms;
-   }
+}
 
-   main article i:hover{
-    rotate: -90deg;
-   }
+.botones{
+    align-items: center;
+    display: block;
+}
 
-main article:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+.buttons{
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    transition: 300ms;
+}
 
+.buttons:hover{
+    background-color:  #0022AA;
 }
 
 
@@ -268,17 +226,5 @@ footer i:hover{
     footer article{
         width: 30%;
         
-    }
-
-    p.precio {
-        font-size: 18px;
-        width: 30%;
-    }
-    
-    p.descuentos {
-        font-size: 16px;
-        width: 70%;
-        color: #39b54a;
-        margin-left: 20%;
     }
 }
