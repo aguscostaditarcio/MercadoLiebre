@@ -129,8 +129,22 @@ input{
 
 .buttons{
     display: flex; 
-    width: 40%;
     justify-content: space-between;
+}
+
+.boton{
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    transition: 300ms;
+    margin: 10px;
+}
+
+.boton:hover{
+    background-color:  #0022AA;
 }
 
 .fechaNacimiento{
@@ -147,6 +161,9 @@ footer {
     text-align: center;
     line-height: 20px;
     background-color: white;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 footer i {
@@ -227,9 +244,11 @@ footer i:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        position: relative;
+        bottom: 0px;
     }
 
-    footer article{
+    footer div{
         width: 30%;
         
     }

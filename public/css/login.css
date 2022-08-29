@@ -93,7 +93,8 @@ body {
 
 .registro{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .fondo{
@@ -141,6 +142,9 @@ footer {
     text-align: center;
     line-height: 20px;
     background-color: white;
+    position: relative;
+    bottom: -225px;
+    width: 100%;
 }
 
 footer i {
@@ -221,9 +225,11 @@ footer i:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        position: absolute;
+        bottom: 0px;
     }
 
-    footer article{
+    footer div{
         width: 30%;
         
     }
