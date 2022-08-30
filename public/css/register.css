@@ -132,7 +132,7 @@ input{
     justify-content: space-between;
 }
 
-.boton{
+.boton-enviar{
     background-color: #1259c3;
     color: white;
     padding: 10px;
@@ -143,8 +143,23 @@ input{
     margin: 10px;
 }
 
-.boton:hover{
+.boton-borrar{
+    background-color: #c31212;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    transition: 300ms;
+    margin: 10px;
+}
+
+.boton-enviar:hover{
     background-color:  #0022AA;
+}
+
+.boton-borrar:hover{
+    background-color:  #5e0303;
 }
 
 .fechaNacimiento{
